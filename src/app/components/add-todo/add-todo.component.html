@@ -1,0 +1,8 @@
+<!-- <form [formGroup]="addTodoForm" (ngSubmit)="onSubmit()">
+    <input type="text" formControllerName="todo">
+    <button class="button" type="submit">Add</button>
+</form> -->
+<form [formGroup]="addTodoForm" (ngSubmit)="onSubmit()" class="form">
+      <input type="text" formControlName="todo" placeholder="Add your todo here..">
+    <button type="submit">Add</button>
+</form>

@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "angular-crash-tudolist",
+      "public": "dist/angular-crash-tudolist",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

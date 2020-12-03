@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "todolist-1ba96": {
+      "hosting": {
+        "angular-crash-tudolist": [
+          "todolist-1ba96"
+        ]
+      }
+    }
+  }
+}

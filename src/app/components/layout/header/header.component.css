@@ -1,0 +1,19 @@
+.header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .header a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:first-child{
+    padding-right: 10px;
+  }
+
+  nav a:last-child{
+    padding-left: 10px;
+  }
